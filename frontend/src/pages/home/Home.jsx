@@ -4,7 +4,7 @@ import styles from './Home.module.css';
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div>
       <div className={styles.search}>
         <SearchIcon/>
         <input type="text" name='search' placeholder='Busque por marca ou modelo'/>

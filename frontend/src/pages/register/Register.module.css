@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
 }
-.login{
+.register{
     width: 50%;
     background-color: #FFF;
     display: flex;
@@ -20,7 +20,7 @@
     flex-direction: column;
     padding: 2em;
 }
-.login form{
+.register form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +29,8 @@
 .login h1{
     color: #5e5e5e;
 }
-.login input{
-    width: 350px;
+.register input{
+    width: 400px;
     padding: 1em;
     margin: 1em;
     border-radius: 15px;
@@ -40,7 +40,7 @@
     font-size: 16px;
     font-weight: 600;
 }
-.login .submit{
+.register .submit{
     background-color: #E50404;
     color: #FFF;
     border-radius: 15px;
