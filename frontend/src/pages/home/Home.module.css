@@ -1,0 +1,32 @@
+.home{
+   
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15em 20em 20em 20em;
+    padding: 1em;
+    background-color: #FFF;
+    box-shadow: rgba(0,0,0, .15) 0 4px 7px 0;
+    border-radius: 15px;
+    color: #5e5e5e;
+}
+.search input{
+    width: 70%;
+    border: none;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 600;
+}
+.search label{
+    background-color: #E50404;
+    color: #FFF;
+    padding: .5em 2em;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.search svg{
+    font-size: 2em;
+}

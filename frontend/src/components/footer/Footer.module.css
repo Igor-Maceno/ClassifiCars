@@ -1,0 +1,16 @@
+.footer{
+    text-align: center;
+    padding: 2em;
+    background-color: #5e5e5e;
+    margin-top: 2em;
+}
+.brand{
+    font-size: 1em;
+    margin-left: 1em;
+    text-decoration: none;
+    color: white;
+}
+.footer span{
+    font-weight: 800;
+    font-style: italic;
+}
