@@ -4,9 +4,7 @@ const router:Router = Router();
 
 router.get('/', (req: Request, res: Response)=>{
     res.json({
-        message: "Deu certo!"
+        message: "API rodando!"
     })
-    console.log("App rondando!")
 });
-
 export { router };
