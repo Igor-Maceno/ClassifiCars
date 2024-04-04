@@ -1,10 +1,6 @@
 import express, { Request, Response } from 'express';
-import { connectDB, getConnection } from './db/db';
 
 import { router } from "./router";
-
-// Conectar ao banco de dados
-connectDB();
 
 export class App{
   public server: express.Application;
