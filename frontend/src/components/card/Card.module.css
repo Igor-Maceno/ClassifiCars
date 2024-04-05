@@ -1,3 +1,23 @@
 .card_container{
     background-color: #E5E5E5;
+    max-width: 300px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px;
+    margin: 1em;
+}
+button{
+    font-family: 'poppins';
+    font-size: 1rem;
+    width: 250px;
+    height: 40px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #5E5E5E;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+img{
+    border-radius: 15px 15px 0 0;
 }
