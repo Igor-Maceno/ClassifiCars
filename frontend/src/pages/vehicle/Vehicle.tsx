@@ -1,14 +1,21 @@
 import React from 'react'
 
-type Props = {
+
+
+const Vehicle = () => {
+  const car = {
     name: 'Hyundai Tucson',
     
 }
 
-const Vehicle = (props: Props) => {
   return (
-    <div>
-        
+    <div className="container">
+      <div className="car_description">
+        <h4>{car.name}</h4>
+      </div>
+      <div className="contact_seller">
+
+      </div>
     </div>
   )
 }
