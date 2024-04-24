@@ -1,9 +1,9 @@
 // dbConfig.ts
 export const dbConfig = {
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'classificars',
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    database: process.env.DB,
   };
   
