@@ -12,13 +12,16 @@ function Navbar() {
         </NavLink>
         <ul className={styles.nav_links}>
           <li>
-            <NavLink to="#">Comprar</NavLink>
+            <NavLink to="/products">Comprar</NavLink>
           </li>
           <li>
-            <NavLink to="#">Vender</NavLink>
+            <NavLink to="/products">Vender</NavLink>
           </li>
           <li>
-            <NavLink to="#">Notícias</NavLink>
+            <NavLink to="/products">Notícias</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">Sobre</NavLink>
           </li>
         </ul>
         <NavLink to="/login" className={styles.login}>

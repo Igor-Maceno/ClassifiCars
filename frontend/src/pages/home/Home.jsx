@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import styles from "./Home.module.css";
 import Card from "../../components/card/Card";
-import image from "../../img/image.png";
+import image from "../../img/image1.png";
 
 const Home = () => {
   const car = [
@@ -37,22 +38,23 @@ const Home = () => {
           name="search"
           placeholder="Busque por marca ou modelo"
         />
-        <label htmlFor="search">Pesquisar</label>
+        <Link to="/products"><label htmlFor="search">Pesquisar</label></Link>
       </div>
       <div className={styles.news_section}>
         <h1>Destaques</h1>
         <div className={styles.news}>
-          {car.map(car=>(
+          {car.map((car) => (
             <Card
-            img={car.img}
-            name={car.name}
-            description={car.description}
-            price={car.price}
-            year={car.year}
-          />
+              img={car.img}
+              name={car.name}
+              description={car.description}
+              price={car.price}
+              year={car.year}
+            />
           ))}
         </div>
       </div>
+      <div className={styles.banner}>Anúncio</div>
     </div>
   );
 };

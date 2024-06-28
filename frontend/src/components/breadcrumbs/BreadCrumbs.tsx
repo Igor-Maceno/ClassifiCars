@@ -20,7 +20,7 @@ const BreadCrumbs = () => {
         </div>
       );
     });
-  return <div className="breadcrumbs">{crumbs}</div>;
+  return <div className="breadcrumbs"><Link to="/" className="breadHome">Home</Link> {crumbs}</div>;
 };
 
 export default BreadCrumbs;

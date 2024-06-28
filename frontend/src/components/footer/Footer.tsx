@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styles from "./Footer.module.css";
+import ContactForm from "../../pages/contactForm/contact";
 
 const Footer = () => {
   return (
@@ -31,6 +32,9 @@ const Footer = () => {
           <li>Recuperar acesso</li>
         </ul>
       </nav>
+      <div>
+      <Link to="/contact">Contato suporte +5542991326307 - Igor</Link>
+      </div>
       <NavLink to="/" className={styles.brand}>
         Classifi<span>Cars</span> &copy; 2024
       </NavLink>

@@ -31,3 +31,13 @@ code {
   color: #5e5e5e;
   text-decoration: none;
 }
+
+.breadHome{
+  color: #5e5e5e;
+  text-decoration: none;
+}
+.breadHome::after{
+  content: '>';
+  margin-left: 10px;
+}
+

@@ -1,0 +1,7 @@
+.news{
+    display: grid;
+    margin: 0 auto;
+    columns: 3;
+    grid-template-columns: auto auto auto;
+}
+
